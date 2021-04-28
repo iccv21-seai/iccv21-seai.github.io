@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h2 {
@@ -36,7 +36,7 @@ h3 {
 }
 
 .subtitle {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 
@@ -90,6 +90,20 @@ h3 {
 
 .nav a:hover {
     color: black;
+}
+
+.title-container {
+    width: 100vw;
+    min-height: 20vw;
+    margin: auto;
+    padding: 40px 0;
+    color: white;
+    background-image: url("assets/teaser.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
